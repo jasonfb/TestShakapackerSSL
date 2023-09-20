@@ -33,6 +33,10 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  # config.middleware.insert_before ActionDispatch::RemoteIp, Rack::Proxy do
+  #   proxy %r{/ws/}, 'wss://localhost:3035/ws/'
+  # end
+
   config.force_ssl = true
   config.hosts << "abc.localhost"
   config.action_cable.url = "wss://abc.localhost/cable"
