@@ -1,5 +1,7 @@
 Example app for
-https://stackoverflow.com/questions/77117811/shakapacker-webpack-on-ssl-connection
+
+https://stackoverflow.com/questions/77145797/webpacker-wont-seem-to-boot-on-an-https-port
+
 
 --
 
